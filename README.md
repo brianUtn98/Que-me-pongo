@@ -11,3 +11,11 @@
 <li>Evitar que haya prendas sin tipo, material, categoría o color primario.</li>
 <li>Evitar que una prenda se contradiga con su tipo.</li>
 </ul>
+<br>
+<h3>Diagrama de clases:<h3>
+<IMG src="diagDeClases.jpeg">
+  
+ <br>
+<h3> Codigo: </h3>
+
+Está en el archivo codigo.java
