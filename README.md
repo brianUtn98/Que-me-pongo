@@ -18,3 +18,6 @@
  <br>
 <h3> Codigo: </h3>
 
+<?php
+include("codigo.java");
+?>
