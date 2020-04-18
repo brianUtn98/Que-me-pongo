@@ -18,6 +18,6 @@
  <br>
 <h3> Codigo: </h3>
 
-<?php
-include("codigo.java");
-?>
+<td id="textoExterno">
+<object type="text/plain" data="codigo.java"></object>
+</td>
