@@ -12,11 +12,12 @@
 <li>Evitar que una prenda se contradiga con su tipo.</li>
 </ul>
 <br>
-<h3>Diagrama de clases:<h3>
+<h3>Diagrama de clases (desactualizado):<h3>
 <IMG src="diagDeClases.jpeg">
   
  <br>
 <h3> Codigo: </h3>
 
 En el archivo codigo.java
+:wq
 
