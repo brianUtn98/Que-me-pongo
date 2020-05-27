@@ -1,6 +1,11 @@
-public enum Color {
+public class Color {
+    private int nivelRojo;
+    private int nivelVerde;
+    private int nivelAzul;
 
-Rojo,Verde,Amarillo,Azul,Fuscia,Marron,Naranja,Rosa,Celeste,Negro,Blanco,Gris
-
+    public Color(int nivelRojo,int nivelVerde,int nivelAzul) {
+        this.nivelRojo = nivelRojo;
+        this.nivelAzul=nivelAzul;
+        this.nivelVerde=nivelVerde;
+    }
 }
-
