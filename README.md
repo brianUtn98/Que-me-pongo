@@ -23,7 +23,7 @@ incurrir en costos innecesarios.
 
 >  <IMG src="diagDeClases.jpeg">
   
-### Codigo: Proyecto de Java - Que-me-pongo
+### Codigo: Proyecto de Java - [**Que-me-pongo**](https://github.com/brianUtn98/Que-me-pongo/tree/master/QueMePongo/src/main)
 ### Código de iteración simplificado y resumido:
 
 ```java
