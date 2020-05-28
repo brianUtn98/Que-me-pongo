@@ -32,6 +32,13 @@ public class Prenda {
         }
     }
 
+    public int getTemperaturaMaxima() {
+        return temperaturaMaxima;
+    }
+
+    public int getTemperaturaMinima() {
+        return temperaturaMinima;
+    }
 
     public Categoria categoria(){
     return this.tipo.categoria();
