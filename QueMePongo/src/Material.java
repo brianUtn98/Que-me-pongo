@@ -3,5 +3,8 @@ public enum Material {
     LANA,
     LAYCRA,
     GAMUSA,
+    CUERO,
+    PIQUE,
+    ACETATO,
     etc
 }

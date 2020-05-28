@@ -4,29 +4,30 @@ public class Borrador {
     private Color colorPrincipal;
     private Color colorSecundario;
     private Trama trama;
-    //Todo
-    public void especificarTipo(TipoDePrenda tipo){
 
+    public Borrador(TipoDePrenda tipo) {
+        this.tipo = tipo;
     }
-    //Todo
+
     public void especificarMaterial(Material material){
-
+    this.material=material;
     }
-    //Todo
-    public void especificarColorPrimario(Color color){
 
+    public void especificarColorPrincipal(Color color){
+    this.colorPrincipal=color;
     }
-    //Todo
+
     public void especificarColorSecundario(Color color){
-
+    this.colorSecundario=color;
     }
-    //Todo
+
     public void especificarTrama(Trama trama){
-
+    this.trama=trama;
     }
-    //Todo
-    public void crearPrenda(){
 
+    public Prenda crearPrenda(){
+    Prenda nuevaPrenda=new Prenda(this.tipo,this.colorPrincipal,this.colorSecundario,this.material,this.trama);
+        return nuevaPrenda;
     }
 
 }

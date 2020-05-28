@@ -1,6 +1,11 @@
 public class TipoDePrenda {
-    //Todo
-    public Categoria categoria(){
+    Categoria categoria;
 
+    public TipoDePrenda(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
+    public Categoria categoria(){
+    return this.categoria;
     }
 }

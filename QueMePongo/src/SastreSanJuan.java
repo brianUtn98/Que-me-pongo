@@ -2,20 +2,30 @@ public class SastreSanJuan implements Sastre {
 
 
     @Override
-    //Todo
-    public void fabricarParteSuperior() {
 
+    public Prenda fabricarParteSuperior() {
+    TipoDePrenda CHOMBA = new TipoDePrenda(Categoria.PARTE_SUPERIOR);
+    Borrador chombaVerde = new Borrador(CHOMBA);
+    chombaVerde.especificarColorPrincipal(new Color(0,255,0));
+    chombaVerde.especificarMaterial(Material.PIQUE);
+    return chombaVerde.crearPrenda();
     }
 
     @Override
-    //Todo
-    public void fabricarParteInferior() {
-
+    public Prenda fabricarParteInferior() {
+    TipoDePrenda PANTALON = new TipoDePrenda(Categoria.PARTE_INFERIOR);
+    Borrador pantalonGris = new Borrador(PANTALON);
+    pantalonGris.especificarColorPrincipal(new Color(130,130,130));
+    pantalonGris.especificarMaterial(Material.ACETATO);
+    return pantalonGris.crearPrenda();
     }
 
     @Override
-    //Todo
-    public void fabricarCalzada() {
-
+    public Prenda fabricarCalzada() {
+    TipoDePrenda ZAPATILLAS = new TipoDePrenda(Categoria.CALZADO);
+    Borrador zapatillasBlancas = new Borrador(ZAPATILLAS);
+    zapatillasBlancas.especificarColorPrincipal(new Color(255,255,255));
+    zapatillasBlancas.especificarMaterial(Material.GAMUSA);
+    return zapatillasBlancas.crearPrenda();
     }
 }
