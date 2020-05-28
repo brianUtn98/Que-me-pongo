@@ -20,7 +20,7 @@ incurrir en costos innecesarios.
 > - <IMG src="diagDeClasesIt4.jpeg">
 > - Link plantuml http://www.plantuml.com/plantuml/png/vPJHgk9038RlynHpMQ7w158K2xl2oWegUnsdsMvsfpEIcH6MdlFkHpijOgbFu8qsoV-7VAJfoWUK41i3sg3twkGZ2hiMVh0FotM8P2jNA4mF7Wv1sDPASwomWWF9bJMxaZQ66rJ-EOPlP4cmSbBI8TOaP3MZL_La6k3gk59O2zKeUo5ROPR-PgcKV4Ffo1TNKWhoZJDE-jyT1X96any5cviNFW6sDf3yHargD7CBgaFTuMMPu7Bry_oNT2WAvSw1B4adp9xGPw3OXa5mfEP2WY7Aj4mxUoK9B2VBjopvx9uD3rVUkwBbv3exPmYj8b_IT_S_UpsZDZn0RheL3e1hhUClml27f7qd_Zltpkb_xmOzB7kztxRmsbfJw8MZgH_Dfi-sRveEpXV3DJuKOxwkuyJRg1QBZsAy4XZMDbqTnMe-BqRC0FstwruR-vzgqtYmkd75ndm1
 
-### Diagrama de clases
+### Diagrama de clases acumulado
 
 > - <IMG src="diagDeClases.jpeg">
   
