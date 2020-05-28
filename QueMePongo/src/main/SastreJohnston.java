@@ -1,3 +1,5 @@
+package main;
+
 public class SastreJohnston implements Sastre {
     @Override
     public Prenda fabricarParteSuperior() {

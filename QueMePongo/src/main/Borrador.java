@@ -1,3 +1,5 @@
+package main;
+
 public class Borrador {
     private TipoDePrenda tipo;
     private Material material;

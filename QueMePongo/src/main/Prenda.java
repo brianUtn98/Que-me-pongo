@@ -1,4 +1,4 @@
-import java.awt.*;
+package main;
 
 public class Prenda {
     private TipoDePrenda tipo;

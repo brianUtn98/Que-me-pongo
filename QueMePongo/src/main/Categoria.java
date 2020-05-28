@@ -1,3 +1,5 @@
+package main;
+
 public enum Categoria {
     PARTE_SUPERIOR,
     CALZADO,

@@ -1,3 +1,5 @@
+package main;
+
 public class TipoDePrenda {
     private Categoria categoria;
     private int temperaturaMaxima;

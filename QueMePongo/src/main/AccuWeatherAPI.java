@@ -1,3 +1,5 @@
+package main;
+
 import java.util.*;
 
 public final class AccuWeatherAPI {
