@@ -6,6 +6,8 @@ public class Prenda {
     private Color colorSecundario;
     private Material material;
     private Trama trama;
+    private int temperaturaMaxima;
+    private int temperaturaMinima;
 
     public Prenda(TipoDePrenda tipo, Color colorPrincipal, Color colorSecundario, Material material, Trama trama) {
        if(tipo==null){
