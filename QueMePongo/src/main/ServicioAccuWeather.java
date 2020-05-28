@@ -8,10 +8,9 @@ public class ServicioAccuWeather implements ServicioDeClima{
     List<Map<String, Object>> clima;
     @Override
     public List<Map<String, Object>> obtenerClima(String ciudad) {
-        if(esDeHoy(clima)){
-            return clima;
+        if(!esDeHoy(clima)){
+            this.clima?servicioClima.getWeather(ciudad);
         }
-        this.clima=servicioClima.getWeather(ciudad);
         return clima;
     }
     //Todo
