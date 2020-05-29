@@ -1,0 +1,25 @@
+  
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+
+#VsCode
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/

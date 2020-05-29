@@ -1,7 +1,6 @@
 package main;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ServicioAccuWeather implements ServicioDeClima{
     AccuWeatherAPI servicioClima;
@@ -19,7 +18,7 @@ public class ServicioAccuWeather implements ServicioDeClima{
     @Override
     public int obtenerTemperatura(String ciudad) {
         int temperatura=57;
-        return convertirUnidades(temperatura,"F");
+        return this.convertirUnidades(temperatura,"F");
     }
 
     @Override
