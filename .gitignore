@@ -9,7 +9,7 @@ bin/
 .idea/
 *.iml
 *.iws
-
+out
 #VsCode
 .vscode/*
 *.code-workspace
