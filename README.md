@@ -181,5 +181,5 @@ this.aceptadas.remove(sugerencia);
 
 ```
 
-
+## Aclaración: Esta solución no me convence a mí del todo, me gustaría haberla pensando un poco más pero no tuve mucho tiempo, y me bloquee un poco al agarrar el ejercicio. Empecé por el diagrama y empecé a escribir lo que salió
   
