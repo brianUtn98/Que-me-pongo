@@ -3,7 +3,7 @@
 ## ¡Quinta iteración!
 
 ### Diagrama de la iteracion:
->  <IMG src="diagDeClasesIt5.jpeg">
+>  <IMG src="diagDeClasesIt5-V2.jpeg">
 
 ### Requerimientos
 - ###  _Como usuarie de QuéMePongo, quiero compartir mis guardarropas con otras personas._
