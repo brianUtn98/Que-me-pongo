@@ -6,7 +6,7 @@
 >  <IMG src="diagDeClasesIt5.jpeg">
 
 ### Requerimientos
-> - ###  _Como usuarie de QuéMePongo, quiero compartir mis guardarropas con otras personas._
+- ###  _Como usuarie de QuéMePongo, quiero compartir mis guardarropas con otras personas._
 * Como usuarie de QuéMePongo, quiero poder manejar varios guardarropas para separar mis
 prendas según diversos criterios (ropa de viaje, ropa de entrecasa, etc).
  ```java
