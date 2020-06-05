@@ -152,58 +152,16 @@ this.quitarSugerencia(sugerencia);
 haya aceptado.
 ```java
 //Hay que modificar algunas cosas del punto anterior!
-
+//En la clase usuario, agrego una lista de sugerencias aceptadas
 public Class Usuario{
 Guardarropa guardarropas;
 List<Sugerencia> sugerencia;
 List<Sugerencia> aceptadas;
-
-//Este metodo se utilizaría para que un usuario le sugiera una prenda a otro
-void sugerirAUsuario(Usuario usuario,Sugerencia sugerencia){
-usuario.agregarSugerencia(sugerencia);
-}
-
-//Este metodo es el metodo que conoce un usuario para agregar una prenda a sus sugerencias pendientes
-void agregarSugerencia(Sugerencia sugerencia){
-this.sugerencias.add(sugerencia);
-}
-
-void quitarSugerencia(Sugerencia sugerencia){
-this.sugerencias.remove(sugerencia);
-}
-
-void aceptarSugerencia(Sugerencia sugerencia)
-{
- if(sugerencia.tipo==TipoSugerencia.AGREGAR){
- this.agregarPrendaSugerencia(sugerencia);
- }
- if(sugerencia.tipo==TipoSugerencia.QUITAR){
- this.quitarPrendaSugerencia(sugerencia);
- }
- this.quitarSugerencia(sugerencia);
- this.agregarAceptada(sugerencia);
- 
-}
-
-void agregarAceptada(Sugerencia sugerencia){
-this.aceptadas.add(sugerencia);
-}
+...
 
 
 
-void agregarPrendaSugerencia(Sugerencia sugerencia){
-this.guardarropa.agregarPrenda(sugerencia.getPrenda());
-}
-
-void quitarPrendaSugerencia(Sugerencia sugerencia){
-this.guardarropa.quitarPrenda(sugerencia.getPrenda());
-}
-
-void rechazarSugerencia(Sugerencia sugerencia)
-{
-this.quitarSugerencia(sugerencia);
-}
-
+//Para deshacer una sugerencia aceptada utilizamos el siguiente metodo.
 void deshacerAceptada(Sugerencia sugerencia){
  if(sugerencia.tipo==TipoSugerencia.AGREGAR){
  this.guardarropa.quitarPrenda(sugerencia.getPrenda());
